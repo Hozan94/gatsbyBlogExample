@@ -1,12 +1,15 @@
 .content {
-  background-color: burlywood;
-  padding: 90px;
 
-  .header {
-    color: red;
-  }
+   background-color: #fafafa;
+   padding: 20px;
 
-  .error-meesage {
-    font-size: 20px;
-  }
+   .header {
+       color: red;
+    }
+    
+    .error-message {
+       font-size: 20px;
+       color: gray;
+    }
+
 }

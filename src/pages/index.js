@@ -1,19 +1,22 @@
 import React from "react"
 import { Link } from "gatsby"
+import Layout from "../components/layout"
+import Title from "../components/title"
 
-export default function Home() {
-  return (
+export default () => (
+  <Layout>
+    <Title text="Welcome" />
     <div>
-      <h1>This is the index page</h1>
-      <div>
-        <Link to="/">Home</Link> | <Link to="/about">About me</Link>
-      </div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec orci
-        velit, luctus vel pretium quis, eleifend vel purus. Praesent vel
-        dignissim turpis. Aliquam gravida ultrices pharetra. Morbi eu posuere
-        nisl.
-      </p>
+      <Link to="/">Home</Link> | <Link to="/about">About me</Link>
     </div>
-  )
-}
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </p>
+  </Layout>
+)
