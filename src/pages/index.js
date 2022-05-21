@@ -1,11 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import Title from "../components/title"
+import { siteMetadata } from "../../gatsby-config"
 
-export default () => (
+export default props => (
   <Layout>
-    <Title text="Welcome" />
+    <Title text={(props.data.site, siteMetadata.title)} />
     <div>
       <Link to="/">Home</Link> | <Link to="/about">About me</Link>
     </div>
@@ -20,3 +21,13 @@ export default () => (
     </p>
   </Layout>
 )
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`
