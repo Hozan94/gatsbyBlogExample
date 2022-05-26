@@ -1,4 +1,4 @@
-@import '../styles/global';
+@import "../styles/global";
 
 .container {
   position: relative;
@@ -6,7 +6,7 @@
 
   .content {
     padding-bottom: 100px;
-    margin:0 auto;
+    margin: 0 auto;
     max-width: $site-width;
 
     a {
@@ -17,7 +17,5 @@
       padding-left: 20px;
       padding-right: 20px;
     }
-
   }
-
 }

@@ -1,4 +1,4 @@
-@import '../styles/global';
+@import "../styles/global";
 
 $footer-height: 100px;
 
@@ -10,14 +10,13 @@ $footer-height: 100px;
   bottom: 0;
   width: $container-width;
 
-    .footer {
-      margin: 0 auto;
-      max-width: $site-width;
-      height: $footer-height;
-      line-height: $footer-height;
-      color: $color-pallete-4;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      padding: 0px 20px 0px 20px;
-    }
-
+  .footer {
+    margin: 0 auto;
+    max-width: $site-width;
+    height: $footer-height;
+    line-height: $footer-height;
+    color: $color-pallete-4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 20px 0px 20px;
+  }
 }
