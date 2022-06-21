@@ -7,6 +7,6 @@ export default ({ children }) => (
   <div className={styles.container}>
     <Header />
     <div className={styles.content}>{children}</div>
-    <Footer>My new Gatsby Blog 2019</Footer>
+    <Footer>My new Gatsby Blog 2022</Footer>
   </div>
 )
