@@ -1,5 +1,7 @@
 backend:
-  name: test-repo
+  name: github
+  repo: Hozan94/gatsbyBlogExample
+  branch: main
 
 media_folder: static/assets
 public_folder: /assets
